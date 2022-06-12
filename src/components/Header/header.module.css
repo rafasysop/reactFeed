@@ -1,5 +1,6 @@
 .header {
-  background-color: #222;
-  text-align: center;
+  background-color: var(--color-gray800);
   color: aliceblue;
+  text-align: center;
+  padding: 1.25rem 0;
 }

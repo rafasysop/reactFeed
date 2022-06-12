@@ -1,0 +1,65 @@
+.sidebar {
+  background-color: var(--color-gray800);
+  border-radius: 8px;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+.cover {
+  width: 100%;
+  height: 72px;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  margin-top: -45px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile strong {
+  margin-top: 1rem;
+  color: var(--color-gray100);
+  line-height: 1.6;
+}
+
+.profile span {
+  font-size: 0.875rem;
+  color: var(--color-gray400);
+  line-height: 1.6;
+}
+
+.profile img {
+  width: 90px;
+  border-radius: 8px;
+  border: 5px solid var(--color-gray800);
+  outline: 5px solid var(--color-green);
+  margin-bottom: 0.5rem;
+}
+
+.sidebar footer {
+  border-top: 1px solid var(--color-gray600);
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.sidebar footer a {
+  width: 100%;
+  background: transparent;
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+  border-radius: 8px;
+  height: 50px;
+  font-weight: 700;
+  display: block;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.sidebar footer a img {
+  margin-right: 0.5rem;
+}
